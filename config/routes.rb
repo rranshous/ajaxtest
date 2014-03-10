@@ -1,4 +1,5 @@
 Ajaxtest::Application.routes.draw do
+  root "items#public"
   resources :items
 
   # The priority is based upon order of creation: first created -> highest priority.

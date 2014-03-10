@@ -1,0 +1,4 @@
+<li id="item-<%= @item.id %>">
+<%= link_to @item.name, @item, remote:true %>
+<%= link_to 'X', @item, method: :delete, remote:true %>
+</li>
